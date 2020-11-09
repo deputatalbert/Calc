@@ -26,12 +26,10 @@ function reset(){
 
 
 function change_color() {
-//var dlina = document.getElementsByClassName('number').length;
-
-document.querySelector('.main__container').classList.toggle('mcdark');
-document.querySelector('.form__output').classList.toggle('fodark');
-document.querySelector('.output').classList.toggle('outputdark');
-
+	
+	document.querySelector('.main__container').classList.toggle('mcdark');
+	document.querySelector('.form__output').classList.toggle('fodark');
+	document.querySelector('.output').classList.toggle('outputdark');
 
 let x = document.querySelectorAll('.number');
 
